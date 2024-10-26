@@ -23,7 +23,7 @@ public class Base {
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.get(Url);
+		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
 	}
 
