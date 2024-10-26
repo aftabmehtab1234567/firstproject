@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-26T04:31:28 PDT" name="Surefire suite" finished-at="2024-10-26T04:31:41 PDT" duration-ms="12470">
+  <suite started-at="2024-10-26T04:39:57 PDT" name="Surefire suite" finished-at="2024-10-26T04:40:10 PDT" duration-ms="13858">
     <groups>
     </groups>
-    <test started-at="2024-10-26T04:31:28 PDT" name="Surefire test" finished-at="2024-10-26T04:31:41 PDT" duration-ms="12470">
+    <test started-at="2024-10-26T04:39:57 PDT" name="Surefire test" finished-at="2024-10-26T04:40:10 PDT" duration-ms="13858">
       <class name="Testdata.Testdata">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testdata.Testdata@13c10b87]" started-at="2024-10-26T04:31:28 PDT" name="setup" finished-at="2024-10-26T04:31:33 PDT" duration-ms="4176" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testdata.Testdata@76508ed1]" started-at="2024-10-26T04:39:57 PDT" name="setup" finished-at="2024-10-26T04:40:03 PDT" duration-ms="5513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:Testdata.Testdata@13c10b87]" started-at="2024-10-26T04:31:33 PDT" name="loginTest" finished-at="2024-10-26T04:31:37 PDT" duration-ms="3854" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:Testdata.Testdata@76508ed1]" started-at="2024-10-26T04:40:03 PDT" name="loginTest" finished-at="2024-10-26T04:40:07 PDT" duration-ms="4050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="data()[pri:1, instance:Testdata.Testdata@13c10b87]" started-at="2024-10-26T04:31:37 PDT" name="data" finished-at="2024-10-26T04:31:40 PDT" duration-ms="3351" status="PASS">
+        <test-method signature="data()[pri:1, instance:Testdata.Testdata@76508ed1]" started-at="2024-10-26T04:40:07 PDT" name="data" finished-at="2024-10-26T04:40:10 PDT" duration-ms="3222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- data -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testdata.Testdata@13c10b87]" started-at="2024-10-26T04:31:40 PDT" name="tearDown" finished-at="2024-10-26T04:31:41 PDT" duration-ms="616" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testdata.Testdata@76508ed1]" started-at="2024-10-26T04:40:10 PDT" name="tearDown" finished-at="2024-10-26T04:40:10 PDT" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
