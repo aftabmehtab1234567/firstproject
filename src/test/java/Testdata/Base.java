@@ -21,9 +21,10 @@ public class Base {
 
 	@BeforeClass
 	public void setup() {
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().driverVersion("latest").setup();
+
 		driver = new ChromeDriver();
-		driver.get("https://www.saucedemo.com/");
+		driver.get(Url);
 		driver.manage().window().maximize();
 	}
 
