@@ -27,11 +27,13 @@
       <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.25.0</version>  <!-- Update this to the latest version if needed -->
+    <version>4.25.0</version>
 </dependency>
+
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
@@ -104,10 +106,16 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
         </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
-        </plugin>
+       <plugin>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.22.1</version>
+    <configuration>
+        <includes>
+            <include>**/*Test*.java</include>
+        </includes>
+    </configuration>
+</plugin>
+
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>

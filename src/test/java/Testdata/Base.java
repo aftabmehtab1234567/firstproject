@@ -39,7 +39,12 @@ public class Base {
 
 		Thread.sleep(3000);
 
-		
+		String actualTitle = driver.getTitle();
+		if (actualTitle.equals("Swag Labs")) {
+			Assert.assertTrue(true, "Login successful, title matched.");
+		} else {
+			Assert.assertTrue(false, "Login failed, title did not match.");
+		}
 	}
 
 	@AfterClass
